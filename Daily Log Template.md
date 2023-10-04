@@ -6,15 +6,6 @@ tags:
 ---
 # <% moment(tp.file.title,'YYYY-MM-DD').format("dddd, MMMM DD, YYYY") %>
 
-```dataviewjs
-// Specify the path based on the OS
-let strPath = 'Win';
-if (navigator.appVersion.indexOf("Win") != -1) strPath = 'file:///C:/Users/artas/Documents/obsidian_vault/arta-vault/Operational Folders/calendar.html';
-// if (navigator.appVersion.indexOf("Mac") != -1) strPath = 'file:////Users/stephen/github/obsidian_demo/daily-timeline.html';
-
-// Output the iframe with the source path based on the OS
-dv.el('span', '<iframe width="100%" frameBorder="0" src="' + strPath + '"></iframe>');
-```
 << [[<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').subtract(1, 'd').format('YYYY-MM-DD-dddd') %>|Yesterday]] | [[<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').add(1, 'd').format('YYYY-MM-DD-dddd') %>|Tomorrow]] >>
 _Remember to set any web blocker app (e.g. RescueTime) to Focus Mode to avoid distractions._
 - [[#Recap of Yesterday:|Recap of Yesterday:]]
