@@ -9,3 +9,9 @@ It was partially inspired by [this post](https://dannb.org/blog/2022/obsidian-da
 But it's otherwise pretty self-explanatory. The only thing I will say is that the "Habits" section is obviously customizable, though you're welcome to try to do my habits. I don't do all of these habits everyday, obviously; I am not that productive, but I am trying to do at least some of them, and then, over time, prune the ones I evidently am not prioritizing. I would also like to eventually include a tracker but that's been a bit more difficult to optimize.
 
 Let me know if you have any suggestions or improvements!
+
+## Dependencies
+You will need:
+* Templater
+* Dataview
+* Tasks
