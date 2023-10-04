@@ -1,6 +1,6 @@
 # Obsidian_Templates
 
-This is the repo where I contain all templates I work on/develop.
+This is the repo where I commit all templates I work on/develop.
 
 So far, as of 10/04/2023, the only one I feel is necessary to share on GitHub is my daily log template. It's a work in progress but I am at least somewhat proud of it.
 
