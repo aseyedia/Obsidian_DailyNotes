@@ -15,3 +15,4 @@ You will need:
 * Templater
 * Dataview
 * Tasks
+* Tracker
