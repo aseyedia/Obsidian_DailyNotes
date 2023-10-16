@@ -6,9 +6,9 @@ This repo is contains the Daily Log template that I use every day with the Obsid
 
 This daily log was born out of a desire to have a centralized note-taking/writing system to keep track of my days and encourage myself to undertake even small daily habits (a la [Atomic Habits](https://jamesclear.com/atomic-habits-summary)) during my period of extended unemployment. This undertaking was partially inspired by [this post](https://dannb.org/blog/2022/obsidian-daily-note-template/), but includes significant customizations. that I will detail below.
 
-Let me know if you have any suggestions or improvements!
+![Pasted image 20231016135922](https://user-images.githubusercontent.com/43455034/275612838-d633bf40-e39f-48a0-913a-983b71ef9a1f.png)
 
-![How I choose to track some of my habits.](/Images/Pasted image 20231016135922.png)
+Let me know if you have any suggestions or improvements!
 
 ## Dependencies
 
@@ -19,6 +19,7 @@ From the community plugins, you will need:
 * [Dataview](https://github.com/blacksmithgu/obsidian-dataview)
 * [Tasks](https://github.com/obsidian-tasks-group/obsidian-tasks)
 * [Tracker](https://github.com/pyrochlore/obsidian-tracker)
+* [Table of Contents](https://github.com/hipstersmoothie/obsidian-plugin-toc)
 
 You can install these plugins using the Community plugins feature in Settings.
 
@@ -30,21 +31,21 @@ You can install these plugins using the Community plugins feature in Settings.
 
 In Obsidian, open Settings and navigate to Daily notes. You want to set your date format to `YYYY/MM-MMMM/YYYY-MM-DD-dddd`
 
-![](/Images/Pasted image 20231016132913.png)
+![Pasted image 20231016133235](https://user-images.githubusercontent.com/43455034/275612935-193a748e-d107-45bf-8cb3-a7b25c50e83c.png)
 
 You also want to sent up your "New file location." You can see mine is in `Periodics/Daily`. You can pick a better name and, if you want, you can change it, but make sure to update the name of the path as well. Remember to also configure your "Template file location." You can do this by saving `Daily Log Template.md` to a "templates" directory in your vault.
 
 #### Configure Periodic Notes
 
-You want to repeat these steps for the community plug in "Periodic Notes," with one minor modification. This way, you can open a note with the same template using either the core or community plug in. The difference here is that by using Periodic Notes, you can also, if you so choose, make weekly and monthly notes as well.
+![Pasted image 20231016132913](https://user-images.githubusercontent.com/43455034/275613014-5827649c-6fc9-4cee-b52c-e17db36e2650.png)
 
-![](/Images/Pasted image 20231016133235.png)
+You want to repeat these steps for the community plug in "Periodic Notes," with one minor modification. This way, you can open a note with the same template using either the core or community plug in. The difference here is that by using Periodic Notes, you can also, if you so choose, make weekly and monthly notes as well.
 
 #### Configure Templater
 
 [Templater](https://github.com/SilentVoid13/Templater) is a powerful tool that can render advanced, JavaScript-like commands into note templates. 
 
-![](/Images/Pasted image 20231016133453.png)
+![Pasted image 20231016133453](https://user-images.githubusercontent.com/43455034/275613051-8c2eba75-ccfe-4b6f-a5f6-54e32d016439.png)
 
 You want to set the "Template folder location" option as well as "Trigger Templater on new file creation." This will ensure that anytime you create a new daily note with Templater code, you won't have to call "Replace templates in the active file."
 
