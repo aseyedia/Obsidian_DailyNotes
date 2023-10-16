@@ -18,8 +18,6 @@ _Remember to set any web blocker app (e.g. RescueTime) to Focus Mode to avoid di
 	- [[#Notes:#Unfinished Tasks from Previous Notes:|Unfinished Tasks from Previous Notes:]]
 	- [[#Notes:#Notes created today|Notes created today]]
 	- [[#Notes:#Notes last touched today|Notes last touched today]]
-
-
 ## Recap of Yesterday:
 _(Quickly glance over the highlights, learnings, or reflections from the previous day. Linking to the actual daily note from yesterday can be useful for a deeper dive.)_
 
@@ -29,7 +27,6 @@ _(Note any dreams you remember from last night or immediate thoughts this mornin
 
 ---
 ## Habits:
-
 
 - [ ] Daily log 📅 {{date:YYYY-MM-DD}}
   *Set intentions and plan the day's tasks.*
@@ -41,7 +38,7 @@ _(Note any dreams you remember from last night or immediate thoughts this mornin
 *Blurb about task*
 
 ---
-## Trackers
+## Trackers 
 ```tracker
 searchType: task.done
 searchTarget: 

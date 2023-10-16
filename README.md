@@ -1,18 +1,111 @@
-# Obsidian_Templates
+# Obsidian Daily Log Template
 
-This is the repo where I commit all templates I work on/develop.
+## Introduction
 
-So far, as of 10/04/2023, the only one I feel is necessary to share on GitHub is my daily log template. It's a work in progress but I am at least somewhat proud of it.
+This repo is contains the Daily Log template that I use every day with the Obsidian plug in, [Periodic Notes](https://github.com/liamcain/obsidian-periodic-notes). For those of you totally new to Obsidian and need a place to start, I suggest starting with [this](https://www.youtube.com/watch?v=DbsAQSIKQXk) video, which was my first introduction to Obsidian and what sparked my interest and kind of made me obsessed with this app after only about a month. 
 
-It was partially inspired by [this post](https://dannb.org/blog/2022/obsidian-daily-note-template/), but also a few others which may need to remain uncredited because, quite frankly, I did not remember to make note of them (oops.)
-
-But it's otherwise pretty self-explanatory. The only thing I will say is that the "Habits" section is obviously customizable, though you're welcome to try to do my habits. I don't do all of these habits everyday, obviously; I am not that productive, but I am trying to do at least some of them, and then, over time, prune the ones I evidently am not prioritizing. I would also like to eventually include a tracker but that's been a bit more difficult to optimize.
+This daily log was born out of a desire to have a centralized note-taking/writing system to keep track of my days and encourage myself to undertake even small daily habits (a la [Atomic Habits](https://jamesclear.com/atomic-habits-summary)) during my period of extended unemployment. This undertaking was partially inspired by [this post](https://dannb.org/blog/2022/obsidian-daily-note-template/), but includes significant customizations. that I will detail below.
 
 Let me know if you have any suggestions or improvements!
 
+![[Pasted image 20231016135922.png]]
+
 ## Dependencies
-You will need:
-* Templater
-* Dataview
-* Tasks
-* Tracker
+
+From the community plugins, you will need:
+
+* [Periodic Notes](https://github.com/liamcain/obsidian-periodic-notes)
+* [Templater](https://github.com/SilentVoid13/Templater)
+* [Dataview](https://github.com/blacksmithgu/obsidian-dataview)
+* [Tasks](https://github.com/obsidian-tasks-group/obsidian-tasks)
+* [Tracker](https://github.com/pyrochlore/obsidian-tracker)
+
+You can install these plugins using the Community plugins feature in Settings.
+## Setup
+
+### Configurations
+
+#### Configure Daily Notes
+
+In Obsidian, open Settings and navigate to Daily notes. You want to set your date format to `YYYY/MM-MMMM/YYYY-MM-DD-dddd`
+
+![[Pasted image 20231016132913.png]]
+
+You also want to sent up your "New file location." You can see mine is in `Periodics/Daily`. You can pick a better name and, if you want, you can change it, but make sure to update the name of the path as well. Remember to also configure your "Template file location." You can do this by saving `Daily Log Template.md` to a "templates" directory in your vault.
+
+#### Configure Periodic Notes
+
+You want to repeat these steps for the community plug in "Periodic Notes," with one minor modification. This way, you can open a note with the same template using either the core or community plug in. The difference here is that by using Periodic Notes, you can also, if you so choose, make weekly and monthly notes as well.
+
+![[Pasted image 20231016133235.png]]
+
+#### Configure Templater
+
+[Templater](https://github.com/SilentVoid13/Templater) is a powerful tool that can render advanced, JavaScript-like commands into note templates. 
+
+![[Pasted image 20231016133453.png]]
+
+You want to set the "Template folder location" option as well as "Trigger Templater on new file creation." This will ensure that anytime you create a new daily note with Templater code, you won't have to call "Replace templates in the active file."
+
+### Edit Template File
+
+Once you have the template file in your template folder, you need to customize your template file so that it matches the habits that you want to track.
+
+```
+## Habits:
+- [ ] Daily log 📅 {{date:YYYY-MM-DD}}
+  *Set intentions and plan the day's tasks.*
+
+- [ ] Task 2 📅 {{date:YYYY-MM-DD}}
+*Blurb about task*
+
+- [ ] Task 3 📅 {{date:YYYY-MM-DD}}
+*Blurb about task*
+
+---
+## Trackers 
+```tracker
+searchType: task.done
+searchTarget: 
+  - '.*Daily log.*'
+  - '.*Task 2.*'
+  - '.*Task 3.*' 
+datasetName: 
+  - Daily Log
+  - Task 2
+  - Task 3
+folder: Periodics
+accum: True
+line:
+  yAxisLocation: left
+  title: Tasks and Habits
+  yAxisLabel: Counts
+  # legendBgColor: white
+  lineColor: 
+    - blue
+    - green
+    - orange
+  pointSize: 5, 4, 3
+  pointColor: blue, green, orange
+  showLegend: true
+```
+
+If you choose to change or add tasks, remember to update the names of the tasks underneath `searchTarget`. You can create additional line graphs if you so choose, but make sure they look they way you want them too upon render. If you find that the names of the habits are taking up too much space, feel free to use emojis!
+
+### Tracker Summaries
+
+I like to also keep track of my success rate with these habits that I am trying to cultivate, mainly to keep track of which habits are evidently important to me and which are not. I included a script `generate_summaries.sh` where you would have to alter the following block of code:
+
+```sh
+habits=(
+["Log"]='.*Daily log.*'
+["Task 2"]='.*Describe Task 2.*'
+["Task 3"]='.*Describe Task 3.*' # etc.
+)
+```
+
+But you don't even have to use that script. You can just directly alter the tasks in `searchTarget`. 
+
+That should be all. The only other thing I'll say is to make sure [[Tracker Summaries]] points to the right place.
+
+Please let me know if you have any questions or run into any problems. Since this template heavily borrows from [Dann Berg](https://dannb.org/blog/2022/obsidian-daily-note-template/), look into his blog for more ideas on how to use Obsidian. Good luck!
