@@ -8,7 +8,7 @@ This daily log was born out of a desire to have a centralized note-taking/writin
 
 Let me know if you have any suggestions or improvements!
 
-![[Images/Pasted image 20231016135922.png]]
+![How I choose to track some of my habits.](Images/Pasted image 20231016135922.png)
 
 ## Dependencies
 
@@ -30,7 +30,7 @@ You can install these plugins using the Community plugins feature in Settings.
 
 In Obsidian, open Settings and navigate to Daily notes. You want to set your date format to `YYYY/MM-MMMM/YYYY-MM-DD-dddd`
 
-![[Images/Pasted image 20231016132913.png]]
+![](Images/Pasted image 20231016132913.png)
 
 You also want to sent up your "New file location." You can see mine is in `Periodics/Daily`. You can pick a better name and, if you want, you can change it, but make sure to update the name of the path as well. Remember to also configure your "Template file location." You can do this by saving `Daily Log Template.md` to a "templates" directory in your vault.
 
@@ -38,13 +38,13 @@ You also want to sent up your "New file location." You can see mine is in `Perio
 
 You want to repeat these steps for the community plug in "Periodic Notes," with one minor modification. This way, you can open a note with the same template using either the core or community plug in. The difference here is that by using Periodic Notes, you can also, if you so choose, make weekly and monthly notes as well.
 
-![[Images/Pasted image 20231016133235.png]]
+![](Images/Pasted image 20231016133235.png)
 
 #### Configure Templater
 
 [Templater](https://github.com/SilentVoid13/Templater) is a powerful tool that can render advanced, JavaScript-like commands into note templates. 
 
-![[Images/Pasted image 20231016133453.png]]
+![](Images/Pasted image 20231016133453.png)
 
 You want to set the "Template folder location" option as well as "Trigger Templater on new file creation." This will ensure that anytime you create a new daily note with Templater code, you won't have to call "Replace templates in the active file."
 
