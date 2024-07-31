@@ -115,7 +115,6 @@ This plugin is in my daily work log template, it basically just prompts you at t
 <img
 src="Personal%20Obsidian%20System%20Workflow-media/032c1ae999b2c4fa2589e15ec0aaec8ef8784d7f.png"
 title="wikilink" alt="700" />
-<figcaption aria-hidden="true">700</figcaption>
 </figure>
 
 
