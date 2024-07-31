@@ -70,7 +70,7 @@ Here are all the plugins I have accumulated and kept enabled as of 2024-07-31. N
 - 🟨 Tracker
 - Waypoint
 
-
+---
 
 #### MAKE.md
 
