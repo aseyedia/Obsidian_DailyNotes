@@ -76,11 +76,12 @@ Here are all the plugins I have accumulated and kept enabled as of 2024-07-31. N
 
 This plugin is probably my most important plugin, and that's almost solely due to the Spaces feature, which allow you to create modular workspaces. You can create and "pin" folders to your Space, create additional Spaces, and have a custom view depending on your context. If you create a folder, it's the same as a real folder, but you can also pin a folder from elsewhere like a shortcut. You can close spaces non-destructively as well. You can pin Waypoints to the top ribbon to create a whole new workspace.
 
-![300](Personal%20Obsidian%20System%20Workflow-media/b5a339a13d24cc985600e95b59be60d4c75d784e.png "wikilink")
+![Personal Workspace](Personal%20Obsidian%20System%20Workflow-media/Pasted%20image%2020240731102433.png "wikilink")
+
 1. This is the default Waypoint. This is the workspace you start out with and can add Spaces to.
 2. This pinned Space is for work. This is how I keep work and personal notes separate; I have a Space for my personal notes (which is my base Space), and then I have a Space for my job. These files and folders are all stored separately within my default file tree, which I basically never use unless it's to tweak my custom templates (which I don't store within Spaces because that messes with their folder location, which makes it hard for Obsidian to use them).
-3. This is just an example of a pinned space. This is my "Home Space," where all my personal Spaces live (like I said before, you can think of Spaces as both folders and shortcuts).
-4. Here are other Spaces that I pinned to the same root level as my Home Space. As you'll notice, some of these Spaces are also inside of my Home Space. These are symlinked Spaces that are at the root level for my convenience. I can close these Spaces at any time without deleting any of their files. Note that "closing" is a different menu option than "deleting;" "deleting" will definitely destroy those files.
+3. This is just an example of a pinned space. This is my "Work Space," where all my work-related Spaces live (like I said before, you can think of Spaces as both folders and shortcuts).
+4. Here are other Spaces that I pinned to the same root level as my work Space. As you'll notice, some of these Spaces are also inside of my work Space. These are symlinked Spaces that are at the root level for my convenience. I can close these Spaces at any time without deleting any of their files. Note that "closing" is a different menu option than "deleting;" "deleting" will definitely destroy those files.
 
 #### Linter
 
