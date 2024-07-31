@@ -7,47 +7,53 @@
 
 Here are all the plugins I have accumulated and kept enabled as of 2024-07-31. Not all of them are important. You can search for all of these in the Community Plugins store in Obsidian.
 
-- $${\color{yellow}Advanced \space Tables}$$
+- 🟨 Important plugins
+- 🟥 Essential plugins (cannot do without)
+
+## Plugin List
+
+- 🟨 Advanced Tables
 - Better Word Count
 - BRAT
-- $${\color{yellow}Calendar}$$
-- $${\color{yellow}Clear \space Unused \space Images}$$
+- 🟨 Callout Manager
+- 🟨 Calendar
+- 🟨 Clear Unused Images
 - Comments
-- $${\color{yellow}Copilot}$$
-- $${\color{red}Dataview}$$
+- 🟨 Copilot
+- 🟥 Dataview
 - Dictionary
-- $${\color{yellow}Editor \space Width \space Slider}$$
-- $${\color{yellow}Enhancing \space Export}$$
-- $${\color{yellow}Excalidraw}$$
+- 🟨 Editor Width Slider
+- 🟨 Enhancing Export
+- 🟨 Excalidraw
 - Export Settings
-- $${\color{yellow}Footnote \space Shortcut}$$
+- 🟨 Footnote Shortcut
 - Google Photos
-- $${\color{yellow}Highlightr}$$
+- 🟨 Highlightr
 - Homepage
-- $${\color{yellow}Kanban}$$
+- 🟨 Kanban
 - Kindle Highlights
-- $${\color{red}Linter}$$
-- $${\color{red}MAKE.md}$$
+- 🟥 Linter
+- 🟥 MAKE.md
 - Mermaid Tools
-- $${\color{red}Meta \space Bind}$$
+- 🟥 Meta Bind
 - Note Refactor
-- $${\color{yellow}Pandoc \space Plugin}$$
-- $${\color{red}Periodic \space Notes}$$
-- $${\color{red}QuickAdd}$$
-- $${\color{yellow}QuickSwitcher++}$$
-- $${\color{yellow}Regex \space Find/Replace}$$
-- $${\color{red}Reminder}$$
+- 🟨 Pandoc Plugin
+- 🟥 Periodic Notes
+- 🟥 QuickAdd
+- 🟨 QuickSwitcher++
+- 🟨 Regex Find/Replace
+- 🟥 Reminder
 - RescueTime
-- $${\color{yellow}Show \space Current \space File \space Path}$$
+- 🟨 Show Current File Path
 - Style Settings
-- $${\color{yellow}Table \space of \space Contents}$$
-- $${\color{red}Tasks}$$
-- $${\color{red}Templater}$$
-- $${\color{yellow}TimeStamper}$$
-- $${\color{yellow}Tracker}$$
+- 🟨 Table of Contents
+- 🟥 Tasks
+- 🟥 Templater
+- 🟨 TimeStamper
+- 🟨 Tracker
 - Waypoint
 
-Important plugins are highlighted in <mark style="background: #FFF3A3A6;">yellow</mark>. Plugins that I could not do without are highlighted in <mark style="background: #FF5582A6;">red</mark>. I use all of these plugins, but I figured it would be useful to prioritize some over others. Here are some extra notes about the *most* important
+
 
 ## MAKE.md
 
