@@ -3,6 +3,23 @@
 > \[!warning\]
 > At the end of the day, the best note-taking software is the one you will actually use.
 
+- [Personal Obsidian Workflow Overview](#personal-obsidian-workflow-overview)
+  * [Plugins](#plugins)
+    + [Plugin List](#plugin-list)
+      - [MAKE.md](#makemd)
+      - [Linter](#linter)
+      - [Dataview](#dataview)
+      - [Tasks](#tasks)
+      - [Templater](#templater)
+      - [Periodic Notes](#periodic-notes)
+      - [Reminder](#reminder)
+      - [QuickAdd](#quickadd)
+  * [Templates](#templates)
+    + [Work Daily Log](#work-daily-log)
+    + [Task Template](#task-template)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 ## Plugins
 
 Here are all the plugins I have accumulated and kept enabled as of 2024-07-31. Not all of them are important. You can search for all of these in the Community Plugins store in Obsidian.
