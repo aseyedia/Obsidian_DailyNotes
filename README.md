@@ -1,3 +1,5 @@
+# Personal Obsidian Workflow Overview
+
 > \[!warning\]
 > At the end of the day, the best note-taking software is the one you will actually use.
 
@@ -5,44 +7,44 @@
 
 Here are all the plugins I have accumulated and kept enabled as of 2024-07-31. Not all of them are important. You can search for all of these in the Community Plugins store in Obsidian.
 
-- <mark style="background: #FFF3A3A6;">Advanced Tables</mark>
+- $${\color{yellow}Advanced \space Tables}$$
 - Better Word Count
 - BRAT
-- <mark style="background: #FFF3A3A6;">Calendar</mark>
-- <mark style="background: #FFF3A3A6;">Clear Unused Images</mark>
+- $${\color{yellow}Calendar}$$
+- $${\color{yellow}Clear \space Unused \space Images}$$
 - Comments
-- <mark style="background: #FFF3A3A6;">Copilot</mark>
-- <mark style="background: #FF5582A6;">Dataview</mark>
+- $${\color{yellow}Copilot}$$
+- $${\color{red}Dataview}$$
 - Dictionary
-- <mark style="background: #FFF3A3A6;">Editor Width Slider</mark>
-- <mark style="background: #FFF3A3A6;">Enhancing Export</mark>
-- <mark style="background: #FFF3A3A6;">Excalidraw</mark>
+- $${\color{yellow}Editor \space Width \space Slider}$$
+- $${\color{yellow}Enhancing \space Export}$$
+- $${\color{yellow}Excalidraw}$$
 - Export Settings
-- <mark style="background: #FFF3A3A6;">Footnote Shortcut</mark>
+- $${\color{yellow}Footnote \space Shortcut}$$
 - Google Photos
-- <mark style="background: #FFF3A3A6;">Highlightr</mark>
+- $${\color{yellow}Highlightr}$$
 - Homepage
-- <mark style="background: #FFF3A3A6;">Kanban</mark>
+- $${\color{yellow}Kanban}$$
 - Kindle Highlights
-- <mark style="background: #FF5582A6;">Linter</mark>
-- <mark style="background: #FF5582A6;">MAKE.md</mark>
+- $${\color{red}Linter}$$
+- $${\color{red}MAKE.md}$$
 - Mermaid Tools
-- <mark style="background: #FF5582A6;">Meta Bind</mark>
+- $${\color{red}Meta \space Bind}$$
 - Note Refactor
-- <mark style="background: #FFF3A3A6;">Pandoc Plugin</mark>
-- <mark style="background: #FF5582A6;">Periodic Notes</mark>
-- <mark style="background: #FF5582A6;">QuickAdd</mark>
-- <mark style="background: #FFF3A3A6;">QuickSwitcher++</mark>
-- <mark style="background: #FFF3A3A6;">Regex Find/Replace</mark>
-- <mark style="background: #FF5582A6;">Reminder</mark>
+- $${\color{yellow}Pandoc \space Plugin}$$
+- $${\color{red}Periodic \space Notes}$$
+- $${\color{red}QuickAdd}$$
+- $${\color{yellow}QuickSwitcher++}$$
+- $${\color{yellow}Regex \space Find/Replace}$$
+- $${\color{red}Reminder}$$
 - RescueTime
-- <mark style="background: #FFF3A3A6;">Show Current File Path</mark>
+- $${\color{yellow}Show \space Current \space File \space Path}$$
 - Style Settings
-- <mark style="background: #FFF3A3A6;">Table of Contents</mark>
-- <mark style="background: #FF5582A6;">Tasks</mark>
-- <mark style="background: #FF5582A6;">Templater</mark>
-- <mark style="background: #FFF3A3A6;">TimeStamper</mark>
-- <mark style="background: #FFF3A3A6;">Tracker</mark>
+- $${\color{yellow}Table \space of \space Contents}$$
+- $${\color{red}Tasks}$$
+- $${\color{red}Templater}$$
+- $${\color{yellow}TimeStamper}$$
+- $${\color{yellow}Tracker}$$
 - Waypoint
 
 Important plugins are highlighted in <mark style="background: #FFF3A3A6;">yellow</mark>. Plugins that I could not do without are highlighted in <mark style="background: #FF5582A6;">red</mark>. I use all of these plugins, but I figured it would be useful to prioritize some over others. Here are some extra notes about the *most* important
