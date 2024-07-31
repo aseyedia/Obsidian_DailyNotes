@@ -52,7 +52,7 @@ Here are all the plugins I have accumulated and kept enabled as of 2024-07-31. N
 - 🟥 Linter
 - 🟥 MAKE.md
 - Mermaid Tools
-- 🟥 Meta Bind
+- 🟨 Meta Bind
 - Note Refactor
 - 🟨 Pandoc Plugin
 - 🟥 Periodic Notes
