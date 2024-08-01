@@ -132,6 +132,10 @@ If all of this seems super complicated, just bear in mind that I generated much 
 
 This is the template I use to host my projects or tasks; Any sort of assignment that's discrete yet large enough to warrant its own log. This is the template for which I created the QuickAdd macro from before, but I also use the QuickAdd macro for my daily work log too. This is where I discovered my passion for [Callouts](https://help.obsidian.md/Editing+and+formatting/Callouts) and [Task querying](https://publish.obsidian.md/tasks/Queries/About+Queries).
 
+### Meeting Template
+
+The Meeting Notes template works by first asking the user what the meeting is about. The input will get stored as the file name. These meeting notes exist under the `#meeting` tag.  
+
 ------------------------------------------------------------------------
 
 This guide, as well as whole Obsidian workflow system and my templates, are all under constant development and are subject to change tomorrow, but for now, I hope this guide serves as a source of inspiration to build out your own Obsidian workflow and system. YouTube, the Obsidian Forums, and random people's blogs are all also good sources of inspiration, and I encourage you to poke around and learn more on your own.
