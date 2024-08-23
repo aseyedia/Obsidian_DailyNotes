@@ -1,12 +1,3 @@
----
-# https://dannb.org/blog/2022/obsidian-daily-note-template/
-# Plugin requirements: templater, Google Calendar, dataview, Tasks, Reminder
-aliases: []
-status: 
-tags:
-  - Log/WorkLog
-title: Work Daily Log
----
 
 ## <% tp.file.title + " Work Log" %>
 
@@ -56,29 +47,6 @@ _Use cmd+shift+L to switch Periodic Notes Calendar Sets._
 > not done
 > ```
 > 
-
----
-## Task Tracker
-
-``` tracker
-searchType: task.done
-searchTarget: DSpace, SSQ1, SSQ2, AQL
-folder: CHOP PEDSnet Team/Daily Notes/
-startDate: 2024-04-01-Monday
-endDate: <% tp.date.now(string = "YYYY-MM-DD-dddd") %>
-dateFormat: YYYY-MM-DD-dddd
-datasetName: DSpace, SSQ1, SSQ2, AQL
-month:
-    mode: annotation
-    startWeekOn: 'Mon'
-    headerMonthColor: grey
-    dimNotInMonth: false
-    todayRingColor: steelblue
-    selectedRingColor: orange
-    showSelectedValue: true
-    annotation: 📚,🌐,🔍,🧮
-    showAnnotationOfAllTargets: true
-```
 
 ---
 <%*
@@ -145,12 +113,6 @@ if (isYesterday) {
 
 
 - [ ] Complete the EOD Review ➕ <%tp.date.now('YYYY-MM-DD')%> (@<%tp.date.now('YYYY-MM-DD') + " 04:45pm"%>)
-### Projects Worked On Today
-
-- [ ] DSpace: 📚
-- [ ] SSQ1: 🌐
-- [ ] SSQ2: 🔍
-- [ ] AQL: 🧮
 
 ---
 
